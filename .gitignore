@@ -1,0 +1,10 @@
+# Editor backup files
+*~
+
+# Eclipse project info
+.project
+.buildpath
+.settings
+
+# Windows image file caches
+Thumbs.db

@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resources/text/countries.txt</file>
+        <file>resources/text/basic.html</file>
+        <file>resources/images/ico_search.png</file>
+    </qresource>
+</RCC>
