@@ -120,7 +120,7 @@ void WhoisInfo::query(QString query_string, QString server="")
 				// Is there any more info on this address?
 				if(data.indexOf("rwhois") < 0)//We'll get to Remote Whois later.
 				{
-					QString ref_server = this->searchFields("ReferralServer|Whois Server", &data);
+					QString ref_server = this->searchFields("ReferralServer", &data);
 
 					if(!ref_server.isEmpty())
 					{
